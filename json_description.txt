@@ -1,0 +1,24 @@
+The annotations have followting attributes:
+
+{ 
+'filename': 'img_00.jpeg', /* The image file name */
+ 'size': 21788, /* size of the image */
+ 
+ /* bounding box*/
+ 'regions': [
+ {'shape_attributes': {
+ 'name': 'rect', /* shape of the bounding box */
+    'x': 181, /* x axis value of the location of the bounding box */
+    'y': 7, /* y axis value of the location of the bounding box */
+    'width': 91,  /* width of the bounding box */
+    'height': 61}, /* height of the bounding box */
+   'region_attributes': 
+   {'name': 'hardhat', /* label of the bounding box ,in this case the object in  the bounding box */
+    'type': 'unknown', /* type of the object in the bounding box */
+    'image_quality': {'good': True, /* attribute to describe the image quality */
+     'frontal': True, /* true if the view is frontal */
+     'good_illumination': True /* true if object is properly illuminated */}}},
+ 
+ 'file_attributes': {'caption': '', /* caption for the image */
+ 'public_domain': 'no', /* if the image is available in public domain */
+ 'image_url': '' /* url of the image location*/ }}
